@@ -23,3 +23,7 @@ class ArrayStack:
 
     def stacklen(self):
         return len(self._data)
+    
+    
+class Empty(Exception):
+    pass

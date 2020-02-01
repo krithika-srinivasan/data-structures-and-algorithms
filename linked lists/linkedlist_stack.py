@@ -33,6 +33,10 @@ class LinkedStack:
         self._head = self._head._next
         old = None
         return top
+    
+    
+class Empty(Exception):
+    pass
 
 
 ll = LinkedStack()

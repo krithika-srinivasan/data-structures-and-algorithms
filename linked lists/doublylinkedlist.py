@@ -34,3 +34,7 @@ class _DoublyLinkedList:
         val = node._element
         node._element = node._next = node._prev = 0
         return val
+
+    
+class Empty(Exception):
+    pass
